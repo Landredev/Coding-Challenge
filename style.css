@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.container {
+  width: 1000px;
+  height: 680px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 3%;
+}
+
+img.logo {
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 70px;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(37, 211, 14);
+  margin: 0%;
+  margin-bottom: 4px;
+}
+
+div.navbar {
+  margin: auto;
+  background-color: rgb(37, 211, 14);
+  width: 800px;
+  height: 37px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+button[type="button"] {
+  font-size: 10px;
+}
+
+div.list {
+  margin-left: 100px;
+}
+
+p.object {
+  margin: 0%;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  font-size: 13px;
+  font-weight: lighter;
+  color: white;
+  line-height: 22px;
+}
+
+.object > .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.square:before {
+  content: "\25A0";
+}
+
+.arrow:before {
+  content: "\21A6";
+  font-weight: bold;
+}
+
+div.carica1 {
+  background-color: rgb(223, 171, 2);
+  width: 275px;
+  height: 25px;
+  border-radius: 4%;
+}
+
+div.carica2 {
+  background-color: rgb(37, 211, 14);
+  width: 485px;
+  height: 25px;
+  border-radius: 4%;
+}
+
+div.carica3 {
+  background-color: rgba(211, 58, 58, 0.863);
+  width: 120px;
+  height: 25px;
+  border-radius: 4%;
+}
+
